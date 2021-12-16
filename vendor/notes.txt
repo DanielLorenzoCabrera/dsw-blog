@@ -1,0 +1,22 @@
+Estructura proyecto en clases
+
+Blog{
+    -titulo
+    - array de entradas[] -> entradas es una clase
+    - array usuarios
+
+}
+
+
+
+Entrada{
+    post(titulo, fecha, descripcion, usuario, imagen, tags, categoria)
+        - comentarios(usuario, fecha, contenido)
+
+}
+
+
+-Usuarios {
+    id, 
+    tipo (admin, autor, usuario)
+}
