@@ -19,16 +19,12 @@ class Usuario{
 
     }
 
+    
+
 
 
 }
 
-
-$timeStamp =  getdate(time());
-
-$fecha = "{$timeStamp['mday']}/{$timeStamp['mon']}/{$timeStamp['year']}";
-
-echo $fecha;
 
 
 
