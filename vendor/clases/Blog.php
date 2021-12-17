@@ -1,13 +1,26 @@
 <?php
 
+include_once "Entrada.php";
+include_once "Usuario.php";
+
+
 class Blog{
 
+    private $blogId;
     private $titulo;
     private $entradas;
-    private $usuarios;
+    private $tiposUsuarios;
+    
 
-    public function __construct($titulo){
+    public function __construct(string $titulo){
         $this->titulo = $titulo;
+        $this->entradas = [];
+        $this->usuarios = [];
+        $tiposUsuarios = [
+            "0" => "admin",
+            "1" => "autor",
+            "2" => "usuario"
+        ];
     }
 
     
